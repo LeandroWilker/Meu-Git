@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.container {
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+
+.container .card {
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.container .card .img{
+    transition: 0.5s;  
+}
+
+.container .card .h2{
+    font-size: 2rem;
+}
+
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+}
+
+.container .card .content p{
+    color: white;
+    transition: 0.5s;
+}
+
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline:none;
+    margin-top: 20px;
+}
+
+.container .first:hover{
+    background-color: #1977F3;
+    color: white;
+    margin-top: -1px;
+    box-shadow: 0px 0px 8px 10px #62a6ff;
+    border: 1px solid #62a6ff;
+}
+
+.container .second:hover{
+    background-color: #E84C33;
+    color: white;
+    margin-top: -1px;
+    box-shadow: 0px 0px 8px 10px #ff9787;
+    border: 1px solid #ff9787e5;
+}
+
+.container .third:hover{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: white;
+    margin-top: -1px;
+    box-shadow: 0px 0px 8px 10px rgb(255, 106, 198);
+    border: 5px solid rgb(255, 106, 198);
+}
+
+.all{
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+img {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.575);
+    border-radius: 30%;
+    background-color: #fff;
+}
